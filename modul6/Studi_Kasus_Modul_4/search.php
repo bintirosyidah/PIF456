@@ -77,7 +77,7 @@ include "../../modul4/koneksi.php";
 
 <div class="container">
 <div class="hero-unit">
-    <h2 class="heading"> Administrasi Data</h2>
+    <h2 class="heading">Data Pencarian </h2>
 		<table class="table table-striped">		
 			<tr>
 			<td width="120" height="30">NIM</td>
