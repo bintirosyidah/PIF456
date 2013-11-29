@@ -1,11 +1,11 @@
 <?php
 /*******EDIT BARIS 3-8*******/
-$DB_Server = "localhost"; //MySQL Server 
-$DB_Username = "root"; //MySQL Username 
-$DB_Password = "";             //MySQL Password 
-$DB_DBName = "myweb";         //MySQL Database Name 
+$DB_Server = "localhost"; //MySQL Server
+$DB_Username = "root"; //MySQL Username
+$DB_Password = ""; //MySQL Password
+$DB_DBName = "myweb"; //MySQL Database Name
 $DB_TBLName = "mahasiswa"; //MySQL Table Name
-$filename = "data mahasiswa 2013";         //File Name
+$filename = "data_mahasiswa"; //File Name
 /*******YOU DO NOT NEED TO EDIT ANYTHING BELOW THIS LINE*******/
 //create MySQL connection
 $sql = "Select * from $DB_TBLName";

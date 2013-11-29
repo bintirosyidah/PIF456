@@ -1,4 +1,0 @@
-- untuk file koneksi ada pada folder modul4
-- database 	= myweb
-- tabel		= mahasiswa
-- import myweb.sql ke localhost

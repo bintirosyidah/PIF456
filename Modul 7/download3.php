@@ -5,8 +5,8 @@
 	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+  <link href="../css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="../css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
     <style type="text/css">
       body {
         padding-top: 60px;
@@ -108,8 +108,8 @@ define('EOL',(PHP_SAPI == 'cli') ? PHP_EOL : '<br />');
 date_default_timezone_set('Asia/Jakarta');
 
 /** Include PHPExcel */
-require_once '../../PHPExcel/Classes/PHPExcel.php';
-require_once '../modul4/koneksi.php';
+require_once '../../../PHPExcel/Classes/PHPExcel.php';
+require_once 'koneksi.php';
 
 // Create new PHPExcel object
 echo date('H:i:s') , " Create new PHPExcel object" , EOL;
